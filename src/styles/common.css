@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: slateblue;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header h1  {
+  margin: 0;
+  line-height: 100px;
+}
+section {
+  width: 80%;
+  margin: 25px auto;
+  border-radius: 10px;
+  /* text-align: center; */
+  background: url('../assets/images/bg.jpg') no-repeat;
+  background-size: contain;
+  color: rgba(0,0,0,.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.font {
+  font-family: 'Black Han Sans', arial, sans-serif;
+}
