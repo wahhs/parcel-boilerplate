@@ -1,0 +1,22 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "0.1.0",
+  "description": "a boilerplate for using Parcel JS",
+  "scripts": {
+    "dev": "parcel index.html -p 3000",
+    "build": "parcel build index.html -d build/output"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jerritan/parcel-boilerplate.git",
+  "author": "Jerry Tan",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.3.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.0"
+  }
+}
